@@ -1,0 +1,44 @@
+/* Center the content on the page */
+.homeCss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f4f4f9; /* Optional background for aesthetics */
+  text-align: center;
+  padding: 2rem; /* Adds some breathing room around the content */
+}
+
+/* Style the heading */
+.homeCss h1 {
+  font-size: 3.5rem; /* Slightly larger for prominence */
+  margin-bottom: 1rem; /* Adds space between the heading and paragraph */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer; /* Indicates it's interactive */
+  transform: translateY(-20px); /* Lift the heading slightly upward by default */
+}
+
+/* Hover effect for the heading */
+.homeCss h1:hover {
+  transform: translateY(-30px); /* Moves the heading higher when hovered */
+  color: #007acc; /* Changes the color on hover */
+}
+
+/* Style the paragraph */
+.homeCss p {
+  font-size: 1.3rem; /* Slightly larger for readability */
+  margin-top: 2rem; /* Adds space above the paragraph */
+  margin-left: 10%;
+  margin-right: 10%; /* Centers the paragraph with balanced margins */
+  line-height: 1.6; /* Improves readability */
+  color: #555; /* Optional: Light text color for contrast */
+}
+
+.highlight {
+  font-weight: 600; 
+  color: #186ab4; /* Optional: Changes the color */
+  background-color: #e3f2fd; /* Optional: Adds a light background for emphasis */
+  padding: 0 4px; /* Optional: Adds padding around the text */
+  border-radius: 4px; /* Optional: Rounds the background edges */
+}

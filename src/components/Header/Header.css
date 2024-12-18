@@ -1,0 +1,27 @@
+.headerCss {
+  display: flex;
+  background-color: #9d84b7;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.headerCss ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.headerCss ul li a {
+  color: #FAF9F6;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  font-size: 16px;
+}
+
+.headerLinks {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

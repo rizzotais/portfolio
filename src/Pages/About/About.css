@@ -1,0 +1,102 @@
+/* Add padding and margins for clean layout */
+.aboutcss {
+  padding: 3rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align content to the left for readability */
+}
+
+/* Main heading */
+.aboutcss h1 {
+  font-size: 2.5rem;
+  color: #007acc;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for the main heading */
+.aboutcss h1:hover {
+  transform: translateY(-10px);
+  color: #186ab4;
+}
+
+/* Subheading */
+.aboutcss h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Paragraph */
+.aboutcss p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Education list */
+.aboutcss ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.aboutcss li {
+  margin-bottom: 0.5rem;
+}
+
+/* Resume link */
+.resume-link {
+  font-size: 1.2rem;
+  text-decoration: none; /* Removes underline */
+  color: #007acc; /* Matches the design pattern */
+  font-weight: bold; /* Makes the link stand out */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.resume-link:hover {
+  color: #186ab4; /* Changes color on hover */
+  transform: scale(1.1); /* Slightly enlarges the link */
+}
+
+/* Work experience list */
+.aboutcss ul {
+  list-style-type: none; /* Removes bullet points for work experience */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.aboutcss ul li {
+  margin-bottom: 1.5rem; /* Space between work experiences */
+  font-size: 1.1rem;
+}
+
+.aboutcss ul li p {
+  margin-top: 0.5rem; /* Space between job title and description */
+  color: #555; /* Text color for descriptions */
+  line-height: 1.6; /* Improves readability */
+}
+
+.aboutcss ul li strong {
+  color: #007acc; /* Highlight job titles */
+}
+
+/* Style for company links */
+.company-link {
+  text-decoration: none; /* Removes underline */
+  color: #007acc; /* Matches the design pattern */
+  font-weight: bold; /* Makes the link stand out */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.company-link:hover {
+  color: #186ab4; /* Changes color on hover */
+  transform: scale(1.1); /* Slightly enlarges the link */
+}

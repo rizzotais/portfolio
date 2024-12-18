@@ -1,0 +1,56 @@
+/* Center the content with margins and padding */
+.contactCss {
+  padding: 3rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  background-color: #f4f4f9; /* Matches other pages */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers the text */
+}
+
+/* Style the heading */
+.contactCss h1 {
+  font-size: 2.5rem;
+  color: #007acc;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for the heading */
+.contactCss h1:hover {
+  transform: translateY(-10px);
+  color: #186ab4;
+}
+
+/* Style the paragraph */
+.contactCss p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Style the links */
+.contactCss ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.contactCss li {
+  margin-bottom: 1rem; /* Space between list items */
+}
+
+.contactCss a {
+  font-size: 1.2rem;
+  text-decoration: none; /* Remove underline */
+  color: #007acc; /* Matches the theme */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.contactCss a:hover {
+  color: #186ab4; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the link */
+}

@@ -4,10 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Full viewport height */
-  background-color: #f4f4f9; /* Optional background for aesthetics */
+  min-height: 50vh;
   text-align: center;
-  padding: 2rem; /* Adds some breathing room around the content */
+  padding: 1rem;
 }
 
 /* Style the heading */
@@ -36,9 +35,25 @@
 }
 
 .highlight {
-  font-weight: 600; 
+  font-weight: 600;
   color: #186ab4; /* Optional: Changes the color */
   background-color: #e3f2fd; /* Optional: Adds a light background for emphasis */
   padding: 0 4px; /* Optional: Adds padding around the text */
   border-radius: 4px; /* Optional: Rounds the background edges */
 }
+
+/* Position the logo at the bottom right */
+.bottom-right-logo {
+  position: fixed; /* Keeps the logo fixed in the same spot */
+  bottom: 20px; /* Adjust distance from the bottom of the page */
+  right: 20px; /* Adjust distance from the right edge */
+  width: 150px; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.bottom-right-logo:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+

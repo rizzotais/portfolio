@@ -54,7 +54,7 @@ const About = () => {
       <h2>Resume</h2>
       <p>
         You can view or download my resume here:
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
+        <a href="/public/assets/TaisResume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
           📄 Download Resume
         </a>
       </p>

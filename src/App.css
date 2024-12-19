@@ -41,3 +41,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: italic;
 }
+
+.bottom-right-logo {
+  position: fixed; /* Keeps it fixed in the bottom-right corner */
+  bottom: 80px; /* Adds space from the footer */
+  right: 20px; /* Adds space from the right edge */
+  width: 150px; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1000; /* Ensure it appears above other elements */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.bottom-right-logo:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+

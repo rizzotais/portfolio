@@ -10,6 +10,7 @@ import Contact from './Pages/Contact/Contact';
 const App = () => {
   return (
     <Router>
+      <div className="app">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,7 +19,10 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <img src="/assets/taislogosite.png" alt="Tais Logo" className="bottom-right-logo" />
+      </div>
     </Router>
+
   );
 };
 

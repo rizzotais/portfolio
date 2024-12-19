@@ -18,10 +18,6 @@ const Home = () => {
         Hi, I'm Tais, a passionate <span className="highlight">Product UX Designer</span> with a background in clinical
         psychology and I love creating intuitive and user-centric digital experiences.
       </p>
-
-      {/* Add the logo */}
-      <img src="/assets/taislogosite.png" alt="Tais R.C. Logo" className="bottom-right-logo" />
-
     </section>
 
   );

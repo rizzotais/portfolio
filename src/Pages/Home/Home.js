@@ -15,8 +15,8 @@ const Home = () => {
         Welcome!
       </h1>
       <p className="pt-sans-regular">
-        Hi, I'm Tais, a passionate <span className="highlight">Product UX Designer</span> with a background in clinical
-        psychology and I love creating intuitive and user-centric digital experiences.
+        Hi, I'm Tais, a passionate <span className="highlight">Product UX Designer</span>
+        that loves creating intuitive and <span className="highlight">user-centric</span> digital experiences.
       </p>
     </section>
 

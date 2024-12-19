@@ -53,9 +53,14 @@ const About = () => {
       </p>
       <h2>Resume</h2>
       <p>
-        You can view or download my resume here:
-        <a href="/public/assets/TaisResume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
-          📄 Download Resume
+        You can view my resume here:
+        <a
+          href="https://www.canva.com/design/DAGDYfSKOIw/KQY_fk6xUYl8mXgV0YXY2Q/view?utm_content=DAGDYfSKOIw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6797bb2fe4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-link"
+        >
+          📄 View My Resume
         </a>
       </p>
     </section>

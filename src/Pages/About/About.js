@@ -16,14 +16,14 @@ const About = () => {
       <h2>Work Experience</h2>
       <ul>
         <li>
-          <strong>Junior Software Developer & UX Designer</strong> - at
+          Junior Software Developer & UX Designer - @
           <a
             href="https://rook-tech.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="company-link"
           >
-            Rook Tech
+             Rook Tech
           </a>
           (2024 - Present)
           <p>
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </li>
         <li>
-          <strong>Clinical Psychologist</strong> - Private Practice/part-time (2018 - present)
+          Clinical Psychologist - Private Practice/part-time (2018 - present)
           <p>
             Provided psychological counseling and applied cognitive-behavioral therapy to clients, fostering deep understanding of human behavior and empathy.
           </p>
@@ -39,13 +39,13 @@ const About = () => {
       </ul>
       <h2>Education</h2>
       <ul>
-        <li>Bachelor's Psychology - FEF - 2015</li>
-        <li>Graduate Certificate in Cognitive Behavioral Therapy - IPECS - 2019</li>
-        <li>Coding Bootcamp - Le Wagon - 2022</li>
-        <li>MBA in Data Science and Analytics - USP Esalq - 2025</li>
-        <li>MBA in Software Engineering - USP Esalq - 2025</li>
-        <li>Graduate Certificate UX User Experience and Human-Computer Interaction - PUC RJ - 2025</li>
         <li>Membership at Interaction Design Foundation</li>
+        <li>Graduate Certificate UX User Experience and Human-Computer Interaction - PUC RJ - 2025</li>
+        <li>MBA in Software Engineering - USP Esalq - 2025</li>
+        <li>MBA in Data Science and Analytics - USP Esalq - 2025</li>
+        <li>Coding Bootcamp - Le Wagon - 2022</li>
+        <li>Graduate Certificate in Cognitive Behavioral Therapy</li>
+        <li>Bachelor's Psychology</li>
       </ul>
       <h2>Other than Work</h2>
       <p>
@@ -60,7 +60,7 @@ const About = () => {
           rel="noopener noreferrer"
           className="resume-link"
         >
-          📄 View My Resume
+          <span role="img" aria-label="document">📄</span> View My Resume
         </a>
       </p>
     </section>

@@ -8,7 +8,7 @@
 }
 
 .projectsCss p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 /* Center the content with margins and padding */
@@ -16,16 +16,15 @@
   padding: 3rem;
   margin: 2rem auto;
   max-width: 800px;
-  background-color: #f4f4f9; /* Matches the overall design */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
   text-align: center; /* Centers the content */
 }
 
 /* Style the heading */
 .projectsCss h1 {
-  font-size: 2.5rem; /* Larger font for emphasis */
-  color: #007acc; /* Matches the theme */
+  font-size: 2rem; /* Larger font for emphasis */
+  color: #6EACDA; /* Matches the theme */
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
   cursor: pointer;
@@ -39,16 +38,16 @@
 
 /* Style the paragraph */
 .projectsCss p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
-  color: #555;
+  color: #FAF9F6;
   margin-bottom: 1.5rem;
 }
 
 /* Placeholder for future project sections */
 .projectsCss .coming-soon {
-  font-size: 1.5rem;
-  color: #555;
+  font-size: 1.2rem;
+  color: #FAF9F6;
   font-style: italic; /* Adds a "coming soon" feel */
   margin-top: 2rem;
 }

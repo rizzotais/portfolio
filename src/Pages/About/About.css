@@ -1,18 +1,13 @@
-/* Add padding and margins for clean layout */
 .aboutcss {
   padding: 3rem;
   margin: 2rem auto;
   max-width: 800px;
-  background-color: #f4f4f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Align content to the left for readability */
+  text-align: justify;
 }
 
-/* Main heading */
 .aboutcss h1 {
-  font-size: 2.5rem;
-  color: #007acc;
+  font-size: 2rem;
+  color: #6EACDA;
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
   cursor: pointer;
@@ -29,15 +24,15 @@
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #6EACDA;
 }
 
 /* Paragraph */
 .aboutcss p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  color: #555;
+  color: #FAF9F6;
 }
 
 /* Education list */
@@ -45,7 +40,7 @@
   list-style-type: disc;
   margin-left: 2rem;
   font-size: 1.1rem;
-  color: #444;
+  color: #FAF9F6;
 }
 
 .aboutcss li {
@@ -54,10 +49,10 @@
 
 /* Resume link */
 .resume-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none; /* Removes underline */
   color: #007acc; /* Matches the design pattern */
-  font-weight: bold; /* Makes the link stand out */
+  font-weight: 500; /* Makes the link stand out */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
 }
 
@@ -75,24 +70,20 @@
 
 .aboutcss ul li {
   margin-bottom: 1.5rem; /* Space between work experiences */
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .aboutcss ul li p {
   margin-top: 0.5rem; /* Space between job title and description */
-  color: #555; /* Text color for descriptions */
+  color: #FAF9F6; /* Text color for descriptions */
   line-height: 1.6; /* Improves readability */
-}
-
-.aboutcss ul li strong {
-  color: #007acc; /* Highlight job titles */
 }
 
 /* Style for company links */
 .company-link {
   text-decoration: none; /* Removes underline */
-  color: #007acc; /* Matches the design pattern */
-  font-weight: bold; /* Makes the link stand out */
+  color:  #FAF9F6; /* Matches the design pattern */
+  font-weight: 500; /* Makes the link stand out */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
 }
 

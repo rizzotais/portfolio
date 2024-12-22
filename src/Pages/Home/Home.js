@@ -8,15 +8,15 @@ const Home = () => {
   return (
     <section className="homeCss">
       <h1
-        className={`pt-sans-bold ${hovered ? "hovered" : ""}`}
+        className={`figtree-bold ${hovered ? "hovered" : ""}`}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
         Welcome!
       </h1>
-      <p className="pt-sans-regular">
-        Hi, I'm Tais, a passionate <span className="highlight">Product UX Designer</span>
-        that loves creating intuitive and <span className="highlight">user-centric</span> digital experiences.
+      <p className="lora-regular">
+        Hi, I'm Tais, a <span className="highlight">Product UX Designer</span>
+        that loves creating intuitive and <span className="highlight">User-Centric</span> digital experiences.
       </p>
     </section>
 

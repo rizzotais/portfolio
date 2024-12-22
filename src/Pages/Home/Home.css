@@ -6,12 +6,13 @@
   align-items: center;
   min-height: 50vh;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
+  color: #F5F7F8;
 }
 
 /* Style the heading */
 .homeCss h1 {
-  font-size: 3.5rem; /* Slightly larger for prominence */
+  font-size: 3rem; /* Slightly larger for prominence */
   margin-bottom: 1rem; /* Adds space between the heading and paragraph */
   transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
   cursor: pointer; /* Indicates it's interactive */
@@ -26,19 +27,17 @@
 
 /* Style the paragraph */
 .homeCss p {
-  font-size: 1.3rem; /* Slightly larger for readability */
-  margin-top: 2rem; /* Adds space above the paragraph */
-  margin-left: 10%;
-  margin-right: 10%; /* Centers the paragraph with balanced margins */
+  font-size: 1.2rem; /* Slightly larger for readability */
+  margin-top: 1rem; /* Adds space above the paragraph */
+  margin-left: 20%;
+  margin-right: 20%; /* Centers the paragraph with balanced margins */
   line-height: 1.6; /* Improves readability */
-  color: #555; /* Optional: Light text color for contrast */
+  color: #F5F7F8; /* Optional: Light text color for contrast */
 }
 
 .highlight {
   font-weight: 600;
-  color: #186ab4; /* Optional: Changes the color */
-  background-color: #e3f2fd; /* Optional: Adds a light background for emphasis */
+  color: #83B4FF; /* Optional: Changes the color */
   padding: 0 4px; /* Optional: Adds padding around the text */
   border-radius: 4px; /* Optional: Rounds the background edges */
 }
-

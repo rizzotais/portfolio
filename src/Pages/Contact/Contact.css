@@ -2,17 +2,14 @@
 .contactCss {
   padding: 3rem;
   margin: 2rem auto;
-  max-width: 800px;
-  background-color: #f4f4f9; /* Matches other pages */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
   text-align: center; /* Centers the text */
 }
 
 /* Style the heading */
 .contactCss h1 {
-  font-size: 2.5rem;
-  color: #007acc;
+  font-size: 2rem;
+  color: #6EACDA;
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
   cursor: pointer;
@@ -26,10 +23,10 @@
 
 /* Style the paragraph */
 .contactCss p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  color: #555;
+  color: #F5F7F8;
 }
 
 /* Style the links */
@@ -44,7 +41,7 @@
 }
 
 .contactCss a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none; /* Remove underline */
   color: #007acc; /* Matches the theme */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */

@@ -1,47 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Import Figtree and Lora from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Apply PT Sans as the global font-family */
+/* Apply Lora as the global font-family for the body text */
 body {
-  font-family: "PT Sans", serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #F3F4f6;
+  background-color: #021526;
 }
 
-/* Headings use PT Sans by default (override Merriweather) */
+/* Apply Figtree for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", serif;
-  font-weight: 700; /* Bold for headings */
+  font-family: "Figtree", sans-serif;
+  
+  margin: 0; /* Reset default margin for headings */
 }
 
-/* Additional utility classes */
-.pt-sans-regular {
-  font-family: "PT Sans", serif;
+/* Utility classes for Figtree */
+.figtree-regular {
+  font-family: "Figtree", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.pt-sans-bold {
-  font-family: "PT Sans", serif;
+.figtree-bold {
+  font-family: "Figtree", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.pt-sans-regular-italic {
-  font-family: "PT Sans", serif;
+/* Utility classes for Lora */
+.lora-regular {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora-bold {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lora-italic {
+  font-family: "Lora", serif;
   font-weight: 400;
   font-style: italic;
 }
 
-.pt-sans-bold-italic {
-  font-family: "PT Sans", serif;
+.lora-bold-italic {
+  font-family: "Lora", serif;
   font-weight: 700;
   font-style: italic;
 }
 
+/* Styling for the bottom-right logo */
 .bottom-right-logo {
   position: fixed; /* Keeps it fixed in the bottom-right corner */
   bottom: 80px; /* Adds space from the footer */

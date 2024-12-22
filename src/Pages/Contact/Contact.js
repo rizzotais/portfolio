@@ -11,12 +11,12 @@ const Contact = () => {
       <ul>
         <li>
           <a href="mailto:myemail@example.com" target="_blank" rel="noopener noreferrer">
-            📧 rizzotais@gmail.com
+            <span role="img" aria-label="email">📧</span> rizzotais@gmail.com
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/tais-rizzo/" target="_blank" rel="noopener noreferrer">
-            💼 LinkedIn Profile
+            <span role="img" aria-label="briefcase">💼</span> LinkedIn Profile
           </a>
         </li>
       </ul>
